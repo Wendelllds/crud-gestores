@@ -65,7 +65,11 @@
 			<version>4.6.1</version>
 			<scope>provided</scope>
 		</dependency>
-
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-entitymanager</artifactId>
+			<version>${hibernate.version}</version>
+		</dependency>
 	</dependencies>
 
 	<build>
